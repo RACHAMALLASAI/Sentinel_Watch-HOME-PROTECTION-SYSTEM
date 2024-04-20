@@ -5,3 +5,5 @@ the guidance of Dr. Vivek Chaturvedi(IOT expert). After completion of this proje
 can get real time monitoring access of home and secuity alert if any abnormal situation
 happens like stranger entering , Fire detection etc.
 Notification to the admin is sent if any abnormality is detected.
+I am using Jetson Nano Board (Nvidia) in this project for image detection and real time monitoring.
+The unique of this project is to deploy a deep learning model on hardware but not on software!
