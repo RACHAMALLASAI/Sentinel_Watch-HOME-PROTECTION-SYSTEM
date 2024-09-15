@@ -1,9 +1,26 @@
-# Sentinel_Watch:HOME PROTECTION SYSTEM
-In this project I am deploying deep learning model on hardware for the real time
-monitoring and survilleance of the home. This is the current on going project under
-the guidance of Dr. Vivek Chaturvedi(IOT expert). After completion of this project one
-can get real time monitoring access of home and secuity alert if any abnormal situation
-happens like stranger entering , Fire detection etc.
-Notification to the admin is sent if any abnormality is detected.
-I am using Jetson Nano Board (Nvidia) in this project for image detection and real time monitoring.
-The unique of this project is to deploy a deep learning model on hardware but not on software!
+# Sentinel_Watch
+
+### oelp-testing.ipynb
+The following notebook contains the code for testing the trained models and checking if the notification is sent when an anomaly activity in the evironment is detected
+
+- kaggle_notebook : https://www.kaggle.com/code/lakshmisagar07/oelp-testing
+
+### models 
+The following folder contains all the trained models 
+
+
+### model_Training.ipynb
+It contains the code for training the models
+You can set your own dataset path for training your models on your custom dataset
+
+- kaggle_notebook: https://www.kaggle.com/code/lakshmisagar07/model-training
+
+
+### Dataset 
+- dataset for the face detection model - https://drive.google.com/file/d/1KemESxSPYdPx48xTRhKlIuLW5J3Ckftr/view?usp=drive_link
+
+- datasets for the fire and the fall detection are taken from the roboflow.
+
+### test-videos 
+contain some of the testing videos.
+
